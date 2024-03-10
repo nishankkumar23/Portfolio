@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className="component-header">
-      <div onClick = {()=>openWeb("http://localhost:5173/")} className="brand">
+      <div onClick = {()=>openWeb("https://soumyajit-dev.vercel.app/")} className="brand">
         <img src={Brandicon} alt = "Brandicon" />
         <div className="brand-name">SOUMYAJIT.DEV</div>
       </div>
