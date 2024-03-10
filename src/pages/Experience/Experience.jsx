@@ -4,7 +4,7 @@ import "./Experience.css";
 const CodeIIEST = {
   company: "CodeIIEST",
   companyWeb: "https://codeiiest.github.io/",
-  logo: "src/assets/codeiiest.png",
+  logo: "public/assets/codeiiest.png",
   duration: "Feb 2024 - Present",
   role :"Web developer",
   description: "Currently contributing towards designing and developing of the CodeIEIST official website page.",
@@ -13,7 +13,7 @@ const CodeIIEST = {
 const GDSC = {
   company: "DSC IIEST",
   companyWeb: "https://gdsc.community.dev/indian-institute-of-engineering-science-and-technology-shibpur-howrah/",
-  logo: "src/assets/gdsc.png",
+  logo: "public/assets/gdsc.png",
   duration: "Sept 2023 - Oct 2023",
   role :"Web developer",
   description: "Collaborated in the design and development of the Google Cloud Study Jams chapter of DSC IIEST group.",

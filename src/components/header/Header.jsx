@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Brandicon from "../../../public/favicon.png";
+import Brandicon from "../../../public/assets/favicon.png";
 import Resume from "../../assets/resume.svg";
 
 const Header = () => {

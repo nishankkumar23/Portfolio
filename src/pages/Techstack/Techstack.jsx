@@ -24,7 +24,7 @@ const Techinfo = ({techList})=>{
         {techList.map((value, index)=>{
           return (
             <div key={value} style = {{opacity: "0", animationDelay: `${index*0.1}s` }} className={animationStyle}>
-            <img src = {`src/assets/tech-stack/${value}.svg`} alt={value} />
+            <img src = {`/assets/tech-stack/${value}.svg`} alt={value} />
             </div>
           )
         })}

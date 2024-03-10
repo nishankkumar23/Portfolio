@@ -1,7 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import Portfolio from "../../assets/portfolio.png"
-// import Portfolio from "../../assets/portfolio.png"
 
 const CoinPROBE = {
   name: "CoinPROBE",
@@ -56,13 +54,13 @@ const Projectcard = ({ data, animationStyle }) => {
   return (
     <div className={`proj-card ${animationStyle}`}>
       <div onClick = {()=>openWeb(data.link)} className="view">
-        <img src={`src/assets/${data.demo}.png`} alt = {data.demo} />
+        <img src={`./assets/${data.demo}.png`} alt = {data.demo} />
       </div>
       <div className="proj-name"><div className={animationStyle}>{data.name}</div></div>
       <div className="proj-duration">
         <div className={animationStyle}>{data.byline}</div>
         <div onClick = {()=>openWeb(data.github)} className={"github "+animationStyle}>
-          <img alt = "github" src="src/assets/tech-stack/github.svg" />
+          <img alt = "github" src="/assets/tech-stack/github.svg" />
           <div className="label">Github</div>
         </div>
       </div>
