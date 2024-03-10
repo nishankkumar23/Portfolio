@@ -109,7 +109,7 @@
   }
 }
 
-.btn-group a{
+.btn-group div{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +121,7 @@
   min-width: 12ch;
 }
 
-.btn-group a:hover{
+.btn-group div:hover{
   cursor: pointer;
 }
 

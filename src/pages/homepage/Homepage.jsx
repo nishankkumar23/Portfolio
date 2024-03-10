@@ -2,6 +2,13 @@ import React, { useState, useEffect } from 'react'
 import "./Homepage.css"
 
 const Homepage = () => {
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth'
+    });
+  };
   const openWeb = () => {
     window.open("https://github.com/Soumyajit0803", "_blank");
   };
@@ -18,8 +25,8 @@ const Homepage = () => {
         </div>
         <div className="about">Crafting elegant digital realms by day,<br /> grinding algorithms by night</div>
         <div className="btn-group">
-          <a onClick = {openWeb} style={{textDecoration: "none", color: "inherit"}}>GITHUB</a>
-          <a style={{textDecoration: "none"}} href = "#contact">CONTACT</a>
+          <div onClick = {openWeb} style={{textDecoration: "none", color: "inherit"}}>GITHUB</div>
+          <div style={{textDecoration: "none"}} onClick={scrollToBottom}>CONTACT</div>
         </div>
       </div>
     </div>
