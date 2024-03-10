@@ -1,0 +1,73 @@
+
+.contact-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.say-hello{
+  font-size: clamp(2rem, 0.7778rem + 7.1111vw, 5rem);
+  font-weight: bold;
+  color: var(--brand);
+  padding-bottom: 1rem;
+  position:relative;
+  /* top: 5rem;
+  animation: general 0.5s forwards;
+  opacity: 0; */
+}
+
+.contact-body{
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+  width: min(60ch, 70%);
+  padding-bottom: 2rem;
+  text-align: center;
+  position:relative;
+  /* top: 5rem;
+  animation: general 0.5s 0.2s forwards;
+  opacity: 0; */
+}
+
+.contact-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.contact-list :nth-child(1){
+  animation-delay: 0s;
+}
+.contact-list :nth-child(2){
+  animation-delay: 0.2s;
+}
+.contact-list :nth-child(3){
+  animation-delay: 0.3s;
+}
+.contact-icon img{
+  aspect-ratio: 1/1;
+  width: 4rem;
+  transition: all ease 0.2s;
+}
+
+.contact-icon img:hover {
+  cursor: pointer;
+  transform: scale(1.2) rotate(5deg);
+}
+
+@keyframes appear-icon {
+  0%{
+    transform: scale(0);
+    left: 1rem;
+  }
+  70%{
+    transform: scale(1.3);
+    left: -1rem;
+  }
+  100%{
+    transform: scale(1);
+    left: 0;
+  }
+}

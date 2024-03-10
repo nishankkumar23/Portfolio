@@ -1,0 +1,138 @@
+.page-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 60%;
+}
+
+.salutation {
+  font-size: clamp(1rem, 0.1852rem + 4.7407vw, 3rem);  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: appear 0.7s forwards;
+  opacity: 0;
+}
+
+.name {
+  color: var(--brand);
+  font-size: clamp(3rem, 1.3704rem + 9.4815vw, 9rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: appear 0.7s 0.4s forwards;
+  opacity: 0;
+}
+
+.hobby {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: clamp(1rem, 0.1852rem + 4.7407vw, 3rem);
+  animation: appear 0.7s 0.5s forwards;
+  opacity: 0;
+}
+
+.about {
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+  font-weight: lighter;
+	text-align: center;
+  color: rgb(194, 194, 194);
+	padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max(100%, 30ch);
+  animation: appear 0.7s 0.6s forwards;
+  opacity: 0;
+}
+
+.btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding-top: 2rem;
+  animation: appear 0.7s 0.7s forwards;
+  opacity: 0;
+}
+
+@keyframes appear {
+  from{
+    transform: scale(0);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    margin: 0;
+    transform: scale(1);
+  }
+}
+
+.dynamic {
+  color: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 2s;
+  position: relative;
+}
+
+.dynamic::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 110%;
+  width: 1px;
+  background-color: white;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+  from{ 
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.btn-group a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(0.8rem, 0.3111rem + 2.8444vw, 2rem);
+  font-weight: bold;
+  border: 1px solid var(--brand);
+  padding: 0.5rem;
+  transition: all ease 0.2s;
+  min-width: 12ch;
+}
+
+.btn-group a:hover{
+  cursor: pointer;
+}
+
+.btn-group :nth-child(2){
+  background-color: var(--brand);
+  color: black;
+}
+
+.btn-group :nth-child(2):hover{
+  color: white;
+}
+.btn-group :nth-child(1):hover{
+  text-shadow: 0 0 5px var(--brand);
+}

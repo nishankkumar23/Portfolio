@@ -1,0 +1,113 @@
+.cp-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.cp-header{
+  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 5rem);
+  font-weight: bold;
+  color: var(--brand);
+  padding-bottom: 1rem;
+  position:relative;
+  /* top: -10rem;
+  animation: general 0.5s forwards; */
+}
+
+.cp-wrap p{
+  width: min(55ch, 80%);
+  text-align: center;
+  position:relative;
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+  /* top: -10rem;
+  animation: general 0.5s forwards; */
+}
+
+.cp-cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 70%;
+}
+
+.cp-card-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--brand);
+  border-radius: 5px;
+  width: min(18rem, 100%);
+  margin-top: 2rem;
+}
+
+.cp-card-wrap:hover{
+  cursor: pointer;
+}
+
+.cp-card-head{
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: var(--brand);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.cp-card-head img{
+  aspect-ratio: 1/1;
+  width: 2rem;
+}
+
+.cp-card-stat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cp-number{
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--brand);
+}
+
+.cp-label{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.cp-more{
+  padding-top: 1rem;
+  font-size: inherit;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cp-more span{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--brand);
+}
+
+
+

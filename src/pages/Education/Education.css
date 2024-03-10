@@ -1,0 +1,108 @@
+.edu-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.edu-content .heading{
+  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 5rem);
+  font-weight: bold;
+  color: var(--brand);
+  padding-bottom: 1rem;
+  position:relative;
+  /* top: -10rem; */
+  /* animation: general-x 0.5s forwards; */
+}
+
+.card-wrapper{
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: min(90%, 60ch);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(108, 108, 108);
+  position:relative;
+  /* top: -10rem; */
+  /* animation: general-x 0.5s forwards; */
+}
+
+.card-header{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.all-cards{
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-icon{
+  width: 5rem;
+  margin: 0.5rem;
+}
+
+.byline-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(189, 189, 189);
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+}
+
+
+.headlines{
+  color: white;
+  padding: 0.7rem;
+  width: 100%;
+}
+
+.degree{
+  color: var(--brand);
+  font-size: clamp(1rem, 0.5926rem + 2.3704vw, 2rem);
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+}
+
+.institution{
+  font-weight: bold;
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+}
+
+.bullets{
+  width: 100%;
+  align-self: first baseline;
+  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+  padding: 0.5rem;
+}
+
+.bullets li{
+  color: rgb(150, 150, 150);
+}
+
+@keyframes general-x{
+  0%{
+    /* top: 10rem; */
+    opacity: 0;
+  }
+  100%{
+    /* top: 0; */
+    opacity:1;
+  }
+}
