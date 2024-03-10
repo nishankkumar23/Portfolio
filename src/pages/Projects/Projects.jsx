@@ -56,7 +56,7 @@ const Projectcard = ({ data, animationStyle }) => {
   return (
     <div className={`proj-card ${animationStyle}`}>
       <div onClick = {()=>openWeb(data.link)} className="view">
-        <img alt = {data.demo} src={`src/assets/${data.demo}.png`} />
+        <img src={`src/assets/${data.demo}.png`} alt = {data.demo} />
       </div>
       <div className="proj-name"><div className={animationStyle}>{data.name}</div></div>
       <div className="proj-duration">
