@@ -1,3 +1,13 @@
+.font-awesome{
+  transition: all ease 0.3s;
+  
+}
+
+.font-awesome:hover{
+  transform: scale(1.1);
+  color: var(--white);
+  cursor: pointer;
+}
 
 .contact-wrap{
   display: flex;
@@ -45,29 +55,4 @@
 }
 .contact-list :nth-child(3){
   animation-delay: 0.3s;
-}
-.contact-icon img{
-  aspect-ratio: 1/1;
-  width: 4rem;
-  transition: all ease 0.2s;
-}
-
-.contact-icon img:hover {
-  cursor: pointer;
-  transform: scale(1.2) rotate(5deg);
-}
-
-@keyframes appear-icon {
-  0%{
-    transform: scale(0);
-    left: 1rem;
-  }
-  70%{
-    transform: scale(1.3);
-    left: -1rem;
-  }
-  100%{
-    transform: scale(1);
-    left: 0;
-  }
 }

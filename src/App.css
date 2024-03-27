@@ -21,6 +21,20 @@
   color: #ffffff; /* Change this to the text color you prefer */
 }
 
+*::-webkit-scrollbar {
+  width: 0px;
+  /* background: linear-gradient(var(--brand) 20%, white 100%); */
+}
+
+/* *::-webkit-scrollbar-thumb {
+  width: 3px !important;
+  background: linear-gradient(var(--brand) 20%, white 100%);
+}
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-corner {
+  display: none;
+} */
+
 html {
 	scroll-behavior: smooth;
 }
@@ -100,6 +114,21 @@ body {
       transform: scaleX(0);
     }
   }
+
+  *::-webkit-scrollbar {
+    width: 3px;
+    background: linear-gradient(var(--brand) 20%, white 100%);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    width: 3px !important;
+    background: linear-gradient(var(--brand) 20%, white 100%);
+  }
+  *::-webkit-scrollbar-button,
+  *::-webkit-scrollbar-corner {
+    display: none;
+  }
+  
 }
 
 @keyframes general{

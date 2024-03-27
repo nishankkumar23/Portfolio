@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const CoinPROBE = {
   name: "CoinPROBE",
@@ -60,7 +62,7 @@ const Projectcard = ({ data, animationStyle }) => {
       <div className="proj-duration">
         <div className={animationStyle}>{data.byline}</div>
         <div onClick = {()=>openWeb(data.github)} className={"github "+animationStyle}>
-          <img alt = "github" src="/assets/tech-stack/github.svg" />
+          <FontAwesomeIcon icon={faGithub} />
           <div className="label">Github</div>
         </div>
       </div>

@@ -20,6 +20,7 @@
   justify-content: center;
   background-color: rgb(59, 59, 59);
   border-radius: 5px;
+  transition: all ease 0.2s;
 }
 .exp-text{
   display: flex;
@@ -43,7 +44,8 @@
   border-bottom-left-radius: 5px;
 }
 
-.company-icon{
+.company-icon img{
+  /* aspect-ratio: 1/1; */
   width: 5rem;
 }
 
@@ -126,6 +128,11 @@
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 2rem;
+}
+
+.exp-wrapper:hover{
+  /* box-shadow: 0 0 10px 2px var(--brand); */
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px){

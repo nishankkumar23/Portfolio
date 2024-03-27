@@ -18,7 +18,7 @@ const About = () => {
           for coding. Owing to my passion for arts, I can design engaging, user-friendly websites for seamless workflow. I am also an avid Competitive programmer and often give contests on popular
           programming platforms to enhance my programming skills.
           <br /><br/>
-          Did I sound curious? Scroll down and learn more about my background!
+          Did I sound curious? Scroll down to learn more about me!
         </div>
       </div>
     </div>

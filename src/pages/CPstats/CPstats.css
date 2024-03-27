@@ -109,5 +109,16 @@
   color: var(--brand);
 }
 
+@media only screen and (max-width: 370px) {
+  .cp-card-head{
+    font-size: 1.5rem;
+  }
+
+  .cp-cards {
+    width: 95%;
+  }
+  
+}
+
 
 

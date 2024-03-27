@@ -29,7 +29,7 @@ const Codechef = {
 
 const Codeforces = {
   platform: "CODEFORCES",
-  highlightNumber: 1189,
+  highlightNumber: 1192,
   highlightLabel: "Highest Rating",
   extra: {
     left: "",
@@ -62,7 +62,7 @@ const CPcard = ({ data }) => {
     <div onClick = {openWeb} className="cp-card-wrap hiderx">
       <div className="cp-card-head">
         <img src={`/assets/${data.platform.toLowerCase()}.svg`} alt={data.platform} />
-        <div className="platform">{data.platform}</div>
+        <div>{data.platform}</div>
       </div>
       <div className="cp-card-stat">
         <div className="cp-number">
