@@ -9,6 +9,7 @@ import Projects from './pages/Projects/Projects'
 import Contact from './pages/Contact/Contact'
 import Techstack from './pages/Techstack/Techstack'
 import CPstats from './pages/CPstats/CPstats'
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
 
@@ -94,6 +95,7 @@ const App = () => {
       <Experience />
       <Projects />
       <Contact />
+      <Analytics />
     </div>
   )
 }
