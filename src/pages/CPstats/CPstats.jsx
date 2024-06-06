@@ -16,7 +16,7 @@ const Leetcode = {
 };
 const Codechef = {
   platform: "CODECHEF",
-  highlightNumber: 1629,
+  highlightNumber: 1636,
   highlightLabel: "Highest Rating",
   extra: {
     left: "Best rank",
@@ -29,11 +29,11 @@ const Codechef = {
 
 const Codeforces = {
   platform: "CODEFORCES",
-  highlightNumber: 1216,
+  highlightNumber: 1365,
   highlightLabel: "Highest Rating",
   extra: {
     left: "",
-    number: 210,
+    number: 251,
     start: 0,
     right: " Problems solved",
   },
