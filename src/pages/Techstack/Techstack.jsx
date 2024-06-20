@@ -2,7 +2,7 @@ import React from 'react'
 import "./Techstack.css"
 
 const Techstack = () => {
-  const dev = ["html", "css", "javascript","mui", "react", "node-js","figma", "python", "java", "c", "chartjs"];
+  const dev = ["html", "css", "javascript","mui", "react", "node-js","figma", "python", "java", "c", "chartjs", "mongodb", "expressjs"];
   return (
     <div className="tech-wrap">
       <div className="tech-heading hiderx">MY SKILLS</div>
