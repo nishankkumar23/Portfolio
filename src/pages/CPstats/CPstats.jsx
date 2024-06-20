@@ -29,7 +29,7 @@ const Codechef = {
 
 const Codeforces = {
   platform: "CODEFORCES",
-  highlightNumber: 1425,
+  highlightNumber: 1410,
   highlightLabel: "Highest Rating",
   extra: {
     left: "",

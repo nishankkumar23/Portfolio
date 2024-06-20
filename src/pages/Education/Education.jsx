@@ -18,8 +18,10 @@ const College = {
   duration: "2022-26",
   bullets: [
     "Joint 3rd in SCAGE Agomoni 2023",
+    "Achieved 2nd rank in the Portfolio showdown contest",
     "Collaborated in building GCSJ website",
-    "Participated in the Portfolio showdown contest",
+    "Collaborated in building website for CP-DSA bootcamp held by our college.",
+    "Mentoring batchmates in the web development bootcamp held by our college.",
     "Actively collaborating in design and development of the website for CodeIIEST"
   ]
 }
