@@ -11,7 +11,7 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="contact-wrap hiderx">
-      <div className="say-hello">SAY HELLO !</div>
+      <div className="say-hello">Say Hello !</div>
       <div className="contact-body">
         Did I miss anything?
         <br />
@@ -26,7 +26,7 @@ const Contact = () => {
           <FontAwesomeIcon
             className="font-awesome"
             icon={faLinkedin}
-            size="4x"
+            size="2x"
             color="#ffad33"
             onClick={() => openWeb("https://www.linkedin.com/in/soumyajit-karmakar-68362526b/")}
           />
@@ -36,7 +36,7 @@ const Contact = () => {
           <FontAwesomeIcon
             className="font-awesome"
             icon={faEnvelope}
-            size="4x"
+            size="2x"
             color="#ffad33"
             onClick={() => openWeb("mailto:sona832004@gmail.com")}
           />
@@ -46,7 +46,7 @@ const Contact = () => {
           <FontAwesomeIcon
             className="font-awesome"
             icon={faGithub}
-            size="4x"
+            size="2x"
             color="#ffad33"
             onClick={() => openWeb("https://github.com/Soumyajit0803")}
           />

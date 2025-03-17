@@ -38,7 +38,7 @@ const Projects = () => {
   
   return (
     <div className="proj-content">
-      <div className="heading hiderx">PROJECTS</div>
+      <div className="heading hiderx">Projects</div>
       <div className="proj-display">
         <Projectcard data = {CoinPROBE} animationStyle={"descend-hide"} />
         <Projectcard data = {Calculator} animationStyle={"bullethide"} />

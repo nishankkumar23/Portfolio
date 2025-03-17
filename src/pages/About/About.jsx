@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-content">
       <div className="heading hiderx">
-        ABOUT
+        About Me
       </div>
       <div className="typography hiderx">
         <div>

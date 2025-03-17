@@ -11,10 +11,10 @@
 
 .contact-wrap{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
+  width: 75vw;
   min-height: 100vh;
 }
 
@@ -31,9 +31,8 @@
 
 .contact-body{
   font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
-  width: min(60ch, 70%);
+  width: 100%;
   padding-bottom: 2rem;
-  text-align: center;
   position:relative;
   /* top: 5rem;
   animation: general 0.5s 0.2s forwards;

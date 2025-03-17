@@ -24,7 +24,7 @@ const Experience = () => {
   // console.log(CodeIIEST);
   return (
     <div className="exp-content">
-      <div className="heading hiderx">EXPERIENCE</div>
+      <div className="heading hiderx">Experience</div>
       <div className="exp-data">
         <Expcard data={CodeIIEST} />
         <Expcard data={GDSC} />

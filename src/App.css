@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 *,
 *::before,
 *::after {
@@ -7,7 +7,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	outline: 0;
-	font-family: "Play";
+	font-family: "Kode Mono";
     --dark: rgb(33, 33, 33);
     --white: hsl(0, 0%, 85%);
     --brand: #FFAD33;
@@ -127,6 +127,13 @@ body {
   *::-webkit-scrollbar-button,
   *::-webkit-scrollbar-corner {
     display: none;
+  }
+
+  .about-content {
+    width: 85vw;
+  }
+  .content {
+    width: 85%
   }
   
 }

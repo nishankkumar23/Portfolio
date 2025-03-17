@@ -3,7 +3,7 @@ import "./Header.css";
 import Brandicon from "/assets/favicon.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
 
 
 const Loader = () => {
@@ -39,7 +39,7 @@ const Header = () => {
         <div className="brand-name">SOUMYAJIT.DEV</div>
       </div>
       <div className="resume" onClick = {()=>openWeb("https://drive.google.com/file/d/10tRSrvS2gWFM98FE_cTBo9b0NNcRh52X/view?usp=sharing", true)} >
-        <FontAwesomeIcon className="fa-icon" icon = {faAddressBook} size="2x" />
+      <FontAwesomeIcon className="fa-icon"  icon={faFileInvoice} />
         <div className="resume-label">MY RESUME</div>
       </div>
     </div>

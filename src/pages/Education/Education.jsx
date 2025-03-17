@@ -30,7 +30,7 @@ const Education = () => {
   
   return (
     <div className="edu-content">
-      <div className="heading hiderx">EDUCATION</div>
+      <div className="heading hiderx">Education</div>
       <div className="all-cards">
         <Educard data = {School} />
         <Educard data = {College} />

@@ -1,7 +1,6 @@
 import {React, useRef, useEffect} from "react";
 import Header from './components/header/Header'
 import Homepage from './pages/homepage/Homepage'
-import "./App.css"
 import About from './pages/About/About'
 import Education from './pages/Education/Education'
 import Experience from './pages/Experience/Experience'
@@ -10,6 +9,7 @@ import Contact from './pages/Contact/Contact'
 import Techstack from './pages/Techstack/Techstack'
 import CPstats from './pages/CPstats/CPstats'
 import { Analytics } from '@vercel/analytics/react';
+import "./App.css"
 
 const App = () => {
 

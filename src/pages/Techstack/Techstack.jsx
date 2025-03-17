@@ -5,7 +5,7 @@ const Techstack = () => {
   const dev = ["html", "css", "javascript","mui", "react", "node-js","figma", "python", "java", "c", "chartjs", "mongodb", "expressjs"];
   return (
     <div className="tech-wrap">
-      <div className="tech-heading hiderx">MY SKILLS</div>
+      <div className="tech-heading hiderx">My Skills</div>
       <div className="tech-content hiderx">
         <p>I am more of a learn-by-doing person, and use my tech skills for achieving best results. Always eager to learn more!</p>
         <div className="info-wrapper">

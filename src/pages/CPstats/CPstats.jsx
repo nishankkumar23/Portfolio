@@ -43,7 +43,7 @@ const Codeforces = {
 const CPstats = () => {
   return (
     <div className="cp-wrap">
-      <div className="cp-header hiderx">CP STATS</div>
+      <div className="cp-header hiderx">CP Stats</div>
       <div className="cp-cards">
         <CPcard data={Leetcode} />
         <CPcard data={Codechef} />

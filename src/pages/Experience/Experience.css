@@ -1,15 +1,15 @@
 .exp-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: min(85%, 60ch);
+  width: 75vw;
   min-height: 100vh;
   margin-bottom: 2rem;
 }
 
 .exp-content .heading {
-  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 5rem);
+  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 4rem);
   font-weight: bold;
   color: var(--brand);
   padding-bottom: 1rem;
@@ -29,7 +29,7 @@
   flex-direction: column;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  /* width: min-content; */
+  width: min-content;
 }
 
 .company{
@@ -123,11 +123,12 @@
 
 .exp-data{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 2rem;
+  width: 100%;
 }
 
 .exp-wrapper:hover{
@@ -156,6 +157,9 @@
   .description{
     text-align: center;
     width: 100%;
+  }
+  .exp-data {
+    align-items: center;
   }
 }
 
