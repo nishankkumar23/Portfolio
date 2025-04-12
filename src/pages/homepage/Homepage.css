@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 100vw;
   min-height: 100vh;
+  
 }
 
 .content {
@@ -14,10 +15,12 @@
   flex-direction: column;
   color: white;
   width: 70%;
+  min-height: 100vh;
+  
 }
 
 .salutation {
-  font-size: clamp(1rem, 0.1852rem + 4.7407vw, 3rem);  
+  font-size: clamp(1rem, 0.1852rem + 4.7407vw, 2rem);  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,13 +30,14 @@
 
 .name {
   color: var(--brand);
-  font-size: clamp(3rem, 1.3704rem + 9.4815vw, 7rem);
+  font-size: clamp(4rem, 1.3704rem + 9.4815vw, 15rem);
   display: flex;
   align-items: center;
   justify-content: center;
   transform-origin: left;
   animation: appear 0.7s 0.4s forwards;
   opacity: 0;
+  line-height: 0.7em
 }
 
 .hobby {
@@ -45,6 +49,7 @@
 
   animation: appear 0.7s 0.5s forwards;
   opacity: 0;
+  padding-top: 2.5rem;
 }
 
 .about {

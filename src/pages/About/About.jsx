@@ -1,28 +1,41 @@
 import React from "react";
 import "./About.css";
+import AboutStamp from "../../assets/about-stamp.svg"
+
 
 const About = () => {
-  return (
-    <div className="about-content">
-      <div className="heading hiderx">
-        About Me
-      </div>
-      <div className="typography hiderx">
-        <div>
-          <p>Welcome to my corner of the Internet!</p>
-          <br />
-          Hello, I am Soumyajit Karmakar, a B.tech Undergraduate student based in Kolkata. I am a self-taught front-end web-developer, with an unwavering passion for designing and competitive programming.
-          <br />
-          <br />
-          My developing style involves using Figma for design and primarily React as the javascript front-end framework
-          for coding. Owing to my passion for arts, I can design engaging, user-friendly websites for seamless workflow. I am also an avid Competitive programmer and often give contests on popular
-          programming platforms to enhance my programming skills.
-          <br /><br/>
-          Did I sound curious? Scroll down to learn more about me!
+    return (
+        <div className="about-content">
+            <div className="head-wideline">
+                <div className="heading hiderx">About Me</div>
+                <div className="wideline bullethide"></div>
+            </div>
+            <div className="typography hiderx">
+                <div>
+                    <p>Welcome to my corner of the Internet!</p>
+                    <br />
+                    I'm Soumyajit Karmakar, a passionate college student with a zest for creativity and problem-solving.
+                    My journey through academia has been an exhilarating exploration of various fields, but my heart
+                    lies at the intersection of web development, design and competitive programming.
+                    <br />
+                    <br />
+                    With a strong foundation in the MERN stack, I thrive on building dynamic web apps that blend
+                    functionality with aesthetics. For design I consider Figma as my digital canvas, crafting many
+                    elegant website UIs. Apart from development, I love to take part in CP contests on various online
+                    platforms.
+                    <br />
+                    <br />
+                    Did I sound curious? Scroll down to learn more about me!
+                </div>
+                <img src={AboutStamp} style= {{
+                    padding: "1rem",
+                    width: "100%",
+                    height: "100%",
+
+                }} />
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default About;

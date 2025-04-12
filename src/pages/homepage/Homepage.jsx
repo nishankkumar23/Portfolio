@@ -17,7 +17,18 @@ const Homepage = () => {
     return (
         <div className="page-wrap">
             <div className="content">
-                <div className="salutation">Hi, I'm</div>
+                <img
+                    src="/assets/favicon.png"
+                    width={25}
+                    style={{
+                        margin: "1rem 0",
+                    }}
+                    className="bullethide"
+                />
+                <div className="head-wideline">
+                    <div className="salutation">Hi, I'm</div>
+                    <div className="wideline bullethide"></div>
+                </div>
                 <div className="name">Soumyajit</div>
                 <div className="hobby">
                     I am a
@@ -27,24 +38,31 @@ const Homepage = () => {
                     Crafting elegant digital realms by day,
                     <br /> grinding algorithms by night
                 </div>
-                <div className="btn-group">
-                    <div onClick={openWeb} style={{ 
-                      textDecoration: "none", 
-                      color: "inherit",
-                      display: "flex",
-                      gap: "10px"
-                      }}>
+                {/* <div className="btn-group">
+                    <div
+                        onClick={openWeb}
+                        style={{
+                            textDecoration: "none",
+                            color: "inherit",
+                            display: "flex",
+                            gap: "10px",
+                        }}
+                    >
                         <FontAwesomeIcon className="fa-icon" icon={faGithub} />
                         Github
                     </div>
-                    <div style={{ 
-                      textDecoration: "none", 
-                      display: "flex",
-                      gap: "10px"
-                      }} onClick={scrollToBottom}>
-                        <FontAwesomeIcon icon={faAddressBook} />Contact
+                    <div
+                        style={{
+                            textDecoration: "none",
+                            display: "flex",
+                            gap: "10px",
+                        }}
+                        onClick={scrollToBottom}
+                    >
+                        <FontAwesomeIcon icon={faAddressBook} />
+                        Contact
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

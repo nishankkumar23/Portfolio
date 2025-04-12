@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *,
 *::before,
 *::after {
@@ -7,7 +8,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	outline: 0;
-	font-family: "Kode Mono";
+	font-family: "Roboto Mono";
     --dark: rgb(33, 33, 33);
     --white: hsl(0, 0%, 85%);
     --brand: #FFAD33;
@@ -49,6 +50,41 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.head-wideline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  margin: 0.5rem 0
+}
+
+.head-wideline div:first-child {
+  white-space: nowrap;
+}
+
+.head-wideline .wideline {
+  width: 100%;
+  height: 1.5px;
+  background-color: var(--brand);
+  position: relative
+}
+
+.head-wideline .wideline::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100%;
+  background-color: var(--brand);
+
+  right: 0;
+  top: -0.6rem;
+
+
+
 }
 
 .design {

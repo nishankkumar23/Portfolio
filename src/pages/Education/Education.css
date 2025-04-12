@@ -7,16 +7,6 @@
   width: 75vw;
 }
 
-.edu-content .heading{
-  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 4rem);
-  font-weight: bold;
-  color: var(--brand);
-  padding-bottom: 1rem;
-  position:relative;
-  /* top: -10rem; */
-  /* animation: general-x 0.5s forwards; */
-}
-
 .card-wrapper{
   margin-top: 1rem;
 

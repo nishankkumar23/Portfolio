@@ -16,12 +16,23 @@
   animation: slide-in 0.5s forwards;
 }
 
+.page-progress {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.headicon{
+  z-index: 2 
+}
+
 .page-scrolled{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
     height: 3px;
     background-color: var(--brand);
+    z-index: -1;
 }
 
 @keyframes slide-in {

@@ -8,15 +8,13 @@
   /* background-color: rgb(0, 0, 67); */
 }
 
-.about-content .heading{
-  font-size: clamp(2rem, 2.1852rem + 4.7407vw, 4rem);
-  font-weight: bold;
-  color: var(--brand);
+.heading{
+  font-size: clamp(2.5rem, 0.5206rem + 4.1237vw, 4rem);  color: var(--brand);
   position: relative;
   /* top: -10rem;
   animation: general 0.5s forwards; */
 }
-
+/* 
 .about-content .heading::after{
   content: "";
   position: absolute;
@@ -25,13 +23,18 @@
   height: 1px;
   width: 100%;
   background-color: var(--brand);
-}
+} */
 
 .about-content .typography{
   padding-top: 2rem;
   /* text-align: center; */
   width: 100%;
-  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+  font-size: 1rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .about-content .typography div{
@@ -45,5 +48,11 @@
   color: var(--brand);
   font-size: 1.3rem;
 
+}
+
+@media only screen and (max-width: 920px) {
+  .about-content .typography {
+    flex-direction: column;
+  }
 }
 

@@ -91,7 +91,7 @@ const App = () => {
       <About />
       <Education />
       <CPstats />
-      <Techstack />
+      {/* <Techstack /> */}
       <Experience />
       <Projects />
       <Contact />

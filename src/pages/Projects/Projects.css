@@ -21,13 +21,6 @@
   align-items: start;
 }
 
-.proj-content .heading {
-  font-size: clamp(3rem, 2.1852rem + 4.7407vw, 5rem);
-  font-weight: bold;
-  color: var(--brand);
-  padding-bottom: 1rem;
-}
-
 .proj-byline{
   font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
   color: rgb(189, 189, 189);
