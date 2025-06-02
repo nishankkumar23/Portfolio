@@ -1,15 +1,13 @@
 .projectbanner {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
-    border: 1px solid #fff;
     width: 100%;
 
-    .content {
+    .project-content {
         text-align: right;
 
         .project-head {
-            align-self: last baseline;
             font-size: 2rem;
             width: 100%;
             background-color: var(--brand);
@@ -18,6 +16,7 @@
         }
 
         .project-desc {
+            padding: 0 1rem;
             padding-top: 1rem;
             font-weight: 100;
         }
@@ -28,6 +27,7 @@
             width: 100%;
             justify-content: center;
             flex-direction: column;
+            padding: 0 1rem;
             padding-top: 1rem;
             gap: 1rem;
 
@@ -42,7 +42,18 @@
                 * {
                     padding: 0.5rem 1rem;
                     font-weight: 400;
+                    cursor: pointer;
+                    transition: all ease 0.2s;
                 }
+
+                .github-btn:hover {
+                    box-shadow: 0 0 5px 1px var(--brand);
+                }
+                .demo-btn:hover {
+                    box-shadow: inset 0 0 5px 1px #000;
+                }
+
+                
 
                 .demo-btn {
                     background: var(--brand);
@@ -56,15 +67,28 @@
                 justify-content: right;
                 flex-wrap: wrap;
                 gap: 0.5rem;
-                width: 80%;
 
                 .ptag {
                     color: #fff;
                     background: rgba(217, 217, 217, 0.25);
-                    padding: 6px 10px
+                    padding: 4px 10px;
+                    font-size: 0.8rem;
                 }
             }
+        }
+    }
 
+    .banner {
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3d3d3d;
+        border: 1px solid var(--brand);
+        padding: 0rem 0.7rem;
+
+        img {
+            width: 30rem;
         }
     }
 }

@@ -1,156 +1,154 @@
 .proj-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  width: 80vw;
-  min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    min-height: 100vh;
 }
 
-.proj-byline{
-  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
-  margin-bottom: 2rem;
+.proj-byline {
+    font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+    margin-bottom: 2rem;
 }
 
-.proj-display{
-  display: flex
+.proj-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6rem;
 }
 
-.proj-byline{
-  font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
-  color: rgb(189, 189, 189);
-  width: 70%;
-  text-align: center;
-  flex-grow: 1;
+.proj-byline {
+    font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
+    color: rgb(189, 189, 189);
+    width: 70%;
+    text-align: center;
+    flex-grow: 1;
 }
 
-.proj-card{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  width: 100%;
-  border-radius: 0.5rem;
-  transition: all ease 0.3s;
-  border: 1px solid transparent;
-}
-
-.proj-card:hover{
-  border: 1px solid var(--brand);
-}
-
-.proj-card *{
-  animation-delay: 0.3s;
-}
-
-.view{
-  background-color: rgb(184, 184, 184);
-  padding: 1rem;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.view img{
-  width: 90%;
-}
-
-.proj-name{
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
-  background-color: var(--brand);
-  text-align: center;
-  width: 100%;
-}
-
-.proj-duration{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1rem;
-  color: white;
-  background-color: rgb(55, 55, 55);
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 0.5rem;
-  width: 100%;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  gap :1rem;
-}
-
-.proj-duration :first-child{
-  align-items: flex-start;
-  padding-bottom: auto;
-}
-
-.github img{
-  aspect-ratio: 1/1;
-  width: 1rem;
-}
-
-.github{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-  border: 1px solid var(--brand);
-  border-radius: 3px;
-  padding: 0.3rem;
-  transition: all ease 0.3s;
-  height: 2rem;
-}
-
-.github:hover{
-  cursor: pointer;
-  border-color:white;
-  color: var(--brand)
-}
-
-.view::before{
-  content: "Live demo";
-  font-size: 1rem;
-  position: absolute;
-  width: 100%;
-  color: white;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0.5rem;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  opacity: 0;
-  z-index: 20;
-  background: rgba(4, 4, 4, 0.737);
-  transition: all ease 0.3s;
-  border: 1px solid var(--brand);
-}
-
-.view:hover::before{
-  opacity: 1;
-  cursor: pointer;
-}
-
-.view img::hover{
-  transform: scale(1.5);
-}
-
-@media only screen and (max-width :600px){
-  .proj-display{
-    width: 90%;
+.proj-card {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-  }
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease 0.3s;
+    border: 1px solid transparent;
 }
 
+.proj-card:hover {
+    border: 1px solid var(--brand);
+}
 
+.proj-card * {
+    animation-delay: 0.3s;
+}
 
+.view {
+    background-color: rgb(184, 184, 184);
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.view img {
+    width: 90%;
+}
 
+.proj-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    background-color: var(--brand);
+    text-align: center;
+    width: 100%;
+}
 
+.proj-duration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    gap: 1rem;
+}
+
+.proj-duration :first-child {
+    align-items: flex-start;
+    padding-bottom: auto;
+}
+
+.github img {
+    aspect-ratio: 1/1;
+    width: 1rem;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    border: 1px solid var(--brand);
+    border-radius: 3px;
+    padding: 0.3rem;
+    transition: all ease 0.3s;
+    height: 2rem;
+}
+
+.github:hover {
+    cursor: pointer;
+    border-color: white;
+    color: var(--brand);
+}
+
+.view::before {
+    content: "Live demo";
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    opacity: 0;
+    z-index: 20;
+    background: rgba(4, 4, 4, 0.737);
+    transition: all ease 0.3s;
+    border: 1px solid var(--brand);
+}
+
+.view:hover::before {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.view img::hover {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .proj-display {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
