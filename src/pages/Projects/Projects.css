@@ -13,12 +13,7 @@
 }
 
 .proj-display{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  width: 100%;
-  align-items: start;
+  display: flex
 }
 
 .proj-byline{

@@ -40,46 +40,58 @@ const Experience = () => {
                 <Educard
                     data={{
                         degree: "CodeIIEST x GDG IIEST",
-                        projects : [
+                        projects: [
                             {
                                 project: "Webgame Challenge",
-                                duration: "Nov 2024"
+                                duration: "Nov 2024",
                             },
                             {
                                 project: "Winter of opensource",
-                                duration: "Dec 2024"
+                                duration: "Dec 2024",
                             },
                             {
                                 project: "CodeIIEST website",
-                                duration: "Feb 2024"
-                            }
-                        ]
+                                duration: "Feb 2024",
+                            },
+                        ],
+                        bullets: [
+                            "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
+                            "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
+                        ],
                     }}
                 />
                 <Educard
                     data={{
                         degree: "Rebeca",
-                        projects : [
+                        projects: [
                             {
                                 project: "Main site (Design + dev)",
-                                duration: "Mar 2024"
+                                duration: "Mar 2024",
                             },
                             {
                                 project: "Admin panel (Dev)",
-                                duration: "Feb 2025"
-                            }
-                        ]
+                                duration: "Feb 2025",
+                            },
+                        ],
+                        bullets: [
+                            "Designed and developed the website of Rebeca- the annual cultural fest of IIEST Shibpur.",
+                            "Contributed to both frontend and backend code, along with developing an admin panel for organisers to handle data regarding their events."
+                        ],
                     }}
                 />
                 <Educard
                     data={{
                         degree: "Instruo",
-                        projects : [
+                        projects: [
                             {
                                 project: "Main site (Design + dev)",
-                                duration: "Dec 2024"
-                            }
-                        ]
+                                duration: "Dec 2024",
+                            },
+                        ],
+                        bullets: [
+                            "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
+                            "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
+                        ],
                     }}
                 />
             </div>

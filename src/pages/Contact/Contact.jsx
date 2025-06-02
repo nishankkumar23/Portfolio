@@ -16,12 +16,13 @@ const Contact = () => {
                 <div className="wideline bullethide"></div>
             </div>
             <div className="contact-body">
-                Did I miss anything?
+                Did I sound interesting so far?
                 <br />
-                Want to include me in your amazing project?
+                Whether you're curious about my work or looking to collaborate on something exciting, I'm always open to new opportunities.
                 <br />
                 <br />
-                Let's connect and explore the boundless productivity we can achieve together!
+                Let's connect and create something impactful together!
+
             </div>
 
             <div className="contact-list">

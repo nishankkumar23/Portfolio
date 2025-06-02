@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import ProjectBanner from "./ProjectBanner/ProjectBanner";
 
 const CoinPROBE = {
     name: "CoinPROBE",
@@ -40,10 +41,11 @@ const Projects = () => {
                 <div className="wideline bullethide"></div>
             </div>
             <div className="proj-display">
-                <Projectcard data={CoinPROBE} animationStyle={"descend-hide"} />
+                {/* <Projectcard data={CoinPROBE} animationStyle={"descend-hide"} />
                 <Projectcard data={Calculator} animationStyle={"bullethide"} />
                 <Projectcard data={GCSJ} animationStyle={"descend-hide"} />
-                <Projectcard data={Tictactoe} animationStyle={"bullethide"} />
+                <Projectcard data={Tictactoe} animationStyle={"bullethide"} /> */}
+                <ProjectBanner />
             </div>
         </div>
     );

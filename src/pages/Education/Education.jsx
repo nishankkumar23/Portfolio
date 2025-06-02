@@ -17,9 +17,8 @@ const College = {
     branch: "Information Technology",
     duration: "2022-26",
     bullets: [
-        "Joint 3rd in SCAGE Agomoni 2023",
-        "Achieved 2nd rank in the Portfolio showdown contest",
-        "Collaborated in building GCSJ website",
+        "Participated in many drawing, coding and design contests.",
+        "Actively led the building of various college websites related to clubs, department and events.",
         "Collaborated in building website for CP-DSA bootcamp held by our college.",
         "Mentoring batchmates in the web development bootcamp held by our college.",
         "Actively collaborating in design and development of the website for CodeIIEST",
@@ -66,17 +65,16 @@ export const Educard = ({ data }) => {
                 </div>
             </div>
             <div className="bullets bullethide">
-                {/* <menu>
-                    {data.bullets.map((value, index) => {
+                <menu>
+                    {data.bullets?.map((value, index) => {
                         return (
                             <li style={{ animationDelay: `${index * 0.1}s` }} key={index} className="bullethide">
                                 {value}
                             </li>
                         );
                     })}
-                </menu> */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum id assumenda placeat dicta, nostrum laborum
-                dolore praesentium enim explicabo impedit rerum perspiciatis ducimus reprehenderit.
+                </menu>
+                
             </div>
         </div>
     );
