@@ -48,14 +48,25 @@ export const Educard = ({ data }) => {
                 <div className="headlines bullethide">
                     <div className="degree bullethide">{data.degree}</div>
                     <div className="institution bullethide">{data.institution}</div>
-                    <div className="byline-info bullethide">
-                        <div>{data.branch}</div>
-                        <div>{data.duration}</div>
-                    </div>
+                    {data.projects ? (
+                        data.projects.map((p) => {
+                            return (
+                                <div className="byline-info bullethide">
+                                    <div>{p.project}</div>
+                                    <div>{p.duration}</div>
+                                </div>
+                            );
+                        })
+                    ) : (
+                        <div className="byline-info bullethide">
+                            <div>{data.branch}</div>
+                            <div>{data.duration}</div>
+                        </div>
+                    )}
                 </div>
             </div>
             <div className="bullets bullethide">
-                <menu>
+                {/* <menu>
                     {data.bullets.map((value, index) => {
                         return (
                             <li style={{ animationDelay: `${index * 0.1}s` }} key={index} className="bullethide">
@@ -63,7 +74,9 @@ export const Educard = ({ data }) => {
                             </li>
                         );
                     })}
-                </menu>
+                </menu> */}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum id assumenda placeat dicta, nostrum laborum
+                dolore praesentium enim explicabo impedit rerum perspiciatis ducimus reprehenderit.
             </div>
         </div>
     );

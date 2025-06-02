@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import { Educard } from "../Education/Education";
 
 const CodeIIEST = {
     company: "CodeIIEST",
@@ -23,16 +24,64 @@ const GDSC = {
 
 const Experience = () => {
     return (
-        <div className="content" style={{
-          padding: "3rem 0"
-        }}>
+        <div
+            className="content"
+            style={{
+                padding: "3rem 0",
+            }}
+        >
             <div className="head-wideline">
                 <div className="heading hiderx">Experience</div>
                 <div className="wideline bullethide"></div>
             </div>
             <div className="exp-data">
-                <Expcard data={CodeIIEST} />
-                <Expcard data={GDSC} />
+                {/* <Expcard data={CodeIIEST} />
+                <Expcard data={GDSC} /> */}
+                <Educard
+                    data={{
+                        degree: "CodeIIEST x GDG IIEST",
+                        projects : [
+                            {
+                                project: "Webgame Challenge",
+                                duration: "Nov 2024"
+                            },
+                            {
+                                project: "Winter of opensource",
+                                duration: "Dec 2024"
+                            },
+                            {
+                                project: "CodeIIEST website",
+                                duration: "Feb 2024"
+                            }
+                        ]
+                    }}
+                />
+                <Educard
+                    data={{
+                        degree: "Rebeca",
+                        projects : [
+                            {
+                                project: "Main site (Design + dev)",
+                                duration: "Mar 2024"
+                            },
+                            {
+                                project: "Admin panel (Dev)",
+                                duration: "Feb 2025"
+                            }
+                        ]
+                    }}
+                />
+                <Educard
+                    data={{
+                        degree: "Instruo",
+                        projects : [
+                            {
+                                project: "Main site (Design + dev)",
+                                duration: "Dec 2024"
+                            }
+                        ]
+                    }}
+                />
             </div>
         </div>
     );
