@@ -32,7 +32,7 @@ const Experience = () => {
         >
             <div className="head-wideline">
                 <div className="heading hiderx">Experience</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="exp-data">
                 {/* <Expcard data={CodeIIEST} />
@@ -106,21 +106,21 @@ const Expcard = ({ data }) => {
     return (
         <div className="exp-wrapper hiderx">
             <div className="company">
-                <div className="company-icon descend-hide">
+                <div className="company-icon left-to-right">
                     <img src={data.logo} alt="company-logo" />
                 </div>
-                <div onClick={openWeb} className="company-name descend-hide">
+                <div onClick={openWeb} className="company-name left-to-right">
                     {data.company}
                 </div>
-                <div className="duration descend-hide">{data.duration}</div>
+                <div className="duration left-to-right">{data.duration}</div>
             </div>
             <div className="exp-text">
                 <div className="exp-headlines">{data.role}</div>
-                <div className="description bullethide">{data.description}</div>
+                <div className="description right-to-left">{data.description}</div>
                 <div className="techstack">
                     {data.tech.map((value, index) => {
                         return (
-                            <div className="tech bullethide" key={index} style={{ animationDelay: `${index * 0.05}s` }}>
+                            <div className="tech right-to-left" key={index} style={{ animationDelay: `${index * 0.05}s` }}>
                                 {value}
                             </div>
                         );

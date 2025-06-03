@@ -13,7 +13,7 @@ const Contact = () => {
         <div id="contact" className="content hiderx">
             <div className="head-wideline">
                 <div className="heading hiderx">Say hello!</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="contact-body">
                 Did I sound interesting so far?
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
 
             <div className="contact-list">
-                <div className="bullethide">
+                <div className="right-to-left">
                     <FontAwesomeIcon
                         className="font-awesome"
                         icon={faLinkedin}
@@ -36,7 +36,7 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className="bullethide">
+                <div className="right-to-left">
                     <FontAwesomeIcon
                         className="font-awesome"
                         icon={faEnvelope}
@@ -46,7 +46,7 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className="bullethide">
+                <div className="right-to-left">
                     <FontAwesomeIcon
                         className="font-awesome"
                         icon={faGithub}

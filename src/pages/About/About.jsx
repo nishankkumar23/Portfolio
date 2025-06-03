@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-content">
             <div className="head-wideline">
                 <div className="heading hiderx">About Me</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="typography hiderx">
                 <div>

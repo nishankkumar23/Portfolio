@@ -30,7 +30,7 @@ const Education = () => {
         <div className="edu-content">
             <div className="head-wideline">
                 <div className="heading hiderx">Education</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="all-cards">
                 <Educard data={School} />
@@ -43,32 +43,32 @@ const Education = () => {
 export const Educard = ({ data }) => {
     return (
         <div className="card-wrapper">
-            <div className="card-header bullethide">
-                <div className="headlines bullethide">
-                    <div className="degree bullethide">{data.degree}</div>
-                    <div className="institution bullethide">{data.institution}</div>
+            <div className="card-header right-to-left">
+                <div className="headlines right-to-left">
+                    <div className="degree right-to-left">{data.degree}</div>
+                    <div className="institution right-to-left">{data.institution}</div>
                     {data.projects ? (
                         data.projects.map((p) => {
                             return (
-                                <div className="byline-info bullethide">
+                                <div className="byline-info right-to-left">
                                     <div>{p.project}</div>
                                     <div>{p.duration}</div>
                                 </div>
                             );
                         })
                     ) : (
-                        <div className="byline-info bullethide">
+                        <div className="byline-info right-to-left">
                             <div>{data.branch}</div>
                             <div>{data.duration}</div>
                         </div>
                     )}
                 </div>
             </div>
-            <div className="bullets bullethide">
+            <div className="bullets right-to-left">
                 <menu>
                     {data.bullets?.map((value, index) => {
                         return (
-                            <li style={{ animationDelay: `${index * 0.1}s` }} key={index} className="bullethide">
+                            <li style={{ animationDelay: `${index * 0.1}s` }} key={index} className="right-to-left">
                                 {value}
                             </li>
                         );

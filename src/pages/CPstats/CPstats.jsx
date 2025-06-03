@@ -47,7 +47,7 @@ const CPstats = () => {
         }}>
             <div className="head-wideline">
                 <div className="heading hiderx">CP Stats</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="cp-cards">
                 <CPcard data={Leetcode} />

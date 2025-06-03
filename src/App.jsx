@@ -28,11 +28,11 @@ const App = () => {
         boxes.forEach((box) => {
             observer.current.observe(box);
         });
-        const bulletBoxes = document.querySelectorAll(".bullethide");
+        const bulletBoxes = document.querySelectorAll(".right-to-left");
         bulletBoxes.forEach((box) => {
             bullets.current.observe(box);
         });
-        const descendBoxes = document.querySelectorAll(".descend-hide");
+        const descendBoxes = document.querySelectorAll(".left-to-right");
         descendBoxes.forEach((box) => {
             descend.current.observe(box);
         });

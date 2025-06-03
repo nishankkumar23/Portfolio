@@ -9,28 +9,28 @@ const CoinPROBE = {
     byline: "React cryptocurrency tracking app, to track key stats about top 100 Cryptocoins. Used Coingecko API for data.",
     github: "https://github.com/Soumyajit0803/CoinPROBE",
     link: "https://coinprobe.vercel.app/",
-    tags: ["React JS", "Chart JS", "axios", "CSS"]
+    tags: ["React JS", "Chart JS", "axios", "CSS"],
 };
 const GCSJ = {
     name: "GCSJ IIEST",
     byline: "Website for necessary information about Google Cloud Study Jams, DSC IIEST chapter. Maintained the leaderboard throughout Sept '23 - Oct '23.",
     github: "https://github.com/dsc-iiest/gcsj-website",
     link: "https://gcsj-iiests.vercel.app/",
-    tags: ["React JS", "MUI", "CSS"]
+    tags: ["React JS", "MUI", "CSS"],
 };
 const Tictactoe = {
     name: "Tic-tac-toe",
     byline: "A fun two-player tic-tac-toe game that also tracks player scores throughout multiple attempts. Made in React, taking help from React doc's tutorial.",
     github: "https://github.com/Soumyajit0803/tic-tac-toe",
     link: "https://soumyajit0803.github.io/tic-tac-toe/",
-    tags: ["React JS", "CSS"]
+    tags: ["React JS", "CSS"],
 };
 const Calculator = {
     name: "Calculator",
     byline: "A basic calculator with glassmorphism UI made without any library, using only HTML, CSS and Vanilla Javascript.",
     github: "https://github.com/Soumyajit0803/Basic-calculator",
     link: "https://soumyajit0803.github.io/Basic-calculator/",
-    tags: ["HTML", "CSS", "Javascript"]
+    tags: ["HTML", "CSS", "Javascript"],
 };
 
 const Projects = () => {
@@ -38,13 +38,9 @@ const Projects = () => {
         <div className="content">
             <div className="head-wideline">
                 <div className="heading hiderx">Projects</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="proj-display">
-                {/* <Projectcard data={CoinPROBE} animationStyle={"descend-hide"} />
-                <Projectcard data={Calculator} animationStyle={"bullethide"} />
-                <Projectcard data={GCSJ} animationStyle={"descend-hide"} />
-                <Projectcard data={Tictactoe} animationStyle={"bullethide"} /> */}
                 <ProjectBanner projectStats={CoinPROBE} flip={0} />
                 <ProjectBanner projectStats={GCSJ} flip={1} />
                 <ProjectBanner projectStats={Tictactoe} flip={0} />

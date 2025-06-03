@@ -21,7 +21,7 @@ const Techstack = () => {
         <div className="content">
             <div className="head-wideline">
                 <div className="tech-heading hiderx">My Skills</div>
-                <div className="wideline bullethide"></div>
+                <div className="wideline right-to-left"></div>
             </div>
             <div className="tech-content hiderx">
                 <p>
@@ -37,7 +37,7 @@ const Techstack = () => {
 };
 
 const Techinfo = ({ techList }) => {
-    var animationStyle = "descend-hide";
+    var animationStyle = "left-to-right";
     return (
         <div className="tech-info">
             <div className="tech-icons hiderx">

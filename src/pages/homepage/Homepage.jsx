@@ -23,11 +23,11 @@ const Homepage = () => {
                     style={{
                         margin: "1rem 0",
                     }}
-                    className="bullethide"
+                    className="right-to-left"
                 />
                 <div className="head-wideline">
                     <div className="salutation">Hi, I'm</div>
-                    <div className="wideline bullethide"></div>
+                    <div className="wideline right-to-left"></div>
                 </div>
                 <div className="name">Soumyajit</div>
                 <div className="hobby">
