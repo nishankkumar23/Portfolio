@@ -11,6 +11,7 @@
 .heading{
   font-size: clamp(2.5rem, 0.5206rem + 4.1237vw, 4rem);  color: var(--brand);
   position: relative;
+  font-weight: 400;
   /* top: -10rem;
   animation: general 0.5s forwards; */
 }

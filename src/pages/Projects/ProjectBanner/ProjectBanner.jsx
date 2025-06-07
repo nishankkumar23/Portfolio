@@ -1,23 +1,22 @@
 import React from "react";
 import "./ProjectBanner.css";
-import CoinProbe from "../../../../public/assets/coinprobe-banner.png";
 
 const ButtonGroup = ({ github, demo, flip }) => {
-    const pattern = flip ? "right-to-left" : "left-to-right";
+    const pattern = !flip ? "right-to-left" : "left-to-right";
     return (
         <div className={`project-btn ${pattern}`}>
             <div className="github-btn" onClick={() => window.open(github, "_blank")}>
                 github
             </div>
             <div className="demo-btn" onClick={() => window.open(demo, "_blank")}>
-                demo
+                live
             </div>
         </div>
     );
 };
 
 const ProjectTag = ({ tag, delay, flip }) => {
-    const pattern = flip ? "right-to-left" : "left-to-right";
+    const pattern = !flip ? "right-to-left" : "left-to-right";
 
     return (
         <div
@@ -57,7 +56,7 @@ const ProjectBanner = ({ projectStats, flip = 0 }) => {
                         alignItems: flip ? "flex-start" : "flex-end",
                     }}
                 >
-                    <ButtonGroup demo={projectStats?.link} github={projectStats?.github} />
+                    <ButtonGroup demo={projectStats?.link} github={projectStats?.github} flip={flip} />
                     <div
                         className="project-tags"
                         style={{
@@ -65,13 +64,13 @@ const ProjectBanner = ({ projectStats, flip = 0 }) => {
                         }}
                     >
                         {projectStats?.tags?.map((v, idx) => (
-                            <ProjectTag tag={v} delay={idx} />
+                            <ProjectTag tag={v} delay={idx} flip={flip} />
                         ))}
                     </div>
                 </div>
             </div>
             <div className={"banner" + (flip?" right-to-left":" left-to-right")}>
-                <img src={CoinProbe} />
+                <img src={`/assets/projects/${projectStats.name.toLowerCase()}.webp`} />
             </div>
         </div>
     );

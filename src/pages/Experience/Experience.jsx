@@ -55,6 +55,7 @@ const Experience = () => {
                             },
                         ],
                         bullets: [
+                            "Development lead at GDG IIEST and core member of development at GDG IIES",
                             "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
                             "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
                         ],

@@ -9,6 +9,7 @@
 	box-sizing: border-box;
 	outline: 0;
 	font-family: "Roboto Mono";
+  font-weight: 300;
     --dark: rgb(33, 33, 33);
     --white: hsl(0, 0%, 85%);
     --brand: #FFAD33;

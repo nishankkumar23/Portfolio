@@ -29,7 +29,6 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  border-right: 1px solid #868686
 }
 
 .all-cards{
@@ -50,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(189, 189, 189);
+  color: rgb(255, 255, 255);
   font-size: clamp(1rem, 0.9185rem + 0.4741vw, 1.2rem);
 }
 
@@ -78,11 +77,9 @@
   width: 100%;
   font-size: 1rem;
   padding: 1rem;
-  color: rgb(198, 198, 198);
-}
+  color: rgba(255, 255, 255, 0.7);
+  border-left: 1px solid #868686
 
-.bullets li{
-  color: rgb(150, 150, 150);
 }
 
 @keyframes general-x{
