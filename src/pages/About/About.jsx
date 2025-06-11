@@ -25,7 +25,7 @@ const About = () => {
                     platforms.
                     <br />
                     <br />
-                    Did I sound curious? Scroll down to learn more about me!
+                    Scroll down to learn more about me!
                 </div>
                 <img src={AboutStamp} style= {{
                     padding: "1rem",

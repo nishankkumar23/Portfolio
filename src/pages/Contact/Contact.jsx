@@ -3,14 +3,14 @@ import "./Contact.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
     const openWeb = (link) => {
         window.open(link, "_blank");
     };
     return (
-        <div id="contact" className="content hiderx">
+        <div className="contact-wrap hiderx">
             <div className="head-wideline">
                 <div className="heading hiderx">Say hello!</div>
                 <div className="wideline right-to-left"></div>
@@ -56,6 +56,7 @@ const Contact = () => {
                     />
                 </div>
             </div>
+            <p className="signature">Made with {<FontAwesomeIcon icon={faHeart} color="#ffad33" />} by <i>me</i>.</p>
         </div>
     );
 };
