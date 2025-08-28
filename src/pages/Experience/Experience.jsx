@@ -2,25 +2,6 @@ import React from "react";
 import "./Experience.css";
 import { Educard } from "../Education/Education";
 
-const CodeIIEST = {
-    company: "CodeIIEST",
-    companyWeb: "https://codeiiest.github.io/",
-    logo: "/assets/codeiiest.png",
-    duration: "Feb 2024 - Present",
-    role: "Web developer",
-    description: "Currently contributing towards designing and developing of the CodeIIEST official website page.",
-    tech: ["React", "Figma", "Vite"],
-};
-const GDSC = {
-    company: "DSC IIEST",
-    companyWeb: "https://gdsc.community.dev/indian-institute-of-engineering-science-and-technology-shibpur-howrah/",
-    logo: "/assets/gdsc.png",
-    duration: "Sept 2023 - Oct 2023",
-    role: "Web developer",
-    description:
-        "Collaborated in the design and development of the website for Google Cloud Study Jams chapter of DSC IIEST.",
-    tech: ["React", "MUI", "Figma"],
-};
 
 const Experience = () => {
     return (
@@ -55,7 +36,7 @@ const Experience = () => {
                             },
                         ],
                         bullets: [
-                            "Development lead at GDG IIEST and core member of development at GDG IIES",
+                            "Core member of CodeIIEST and development lead of GDG IIEST.",
                             "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
                             "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
                         ],
@@ -90,8 +71,8 @@ const Experience = () => {
                             },
                         ],
                         bullets: [
-                            "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
-                            "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
+                            "Organiser and Judging panel for Hacknovare- an inter-college hackathon.",
+                            "Speaheaded the design and development of Instruo's official website.",
                         ],
                     }}
                 />

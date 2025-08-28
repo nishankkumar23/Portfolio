@@ -4,11 +4,11 @@ import "./CPstats.css";
 
 const Leetcode = {
     platform: "LEETCODE",
-    highlightNumber: 1799,
+    highlightNumber: 1808,
     highlightLabel: "Highest Rating",
     extra: {
         left: "Top",
-        number: 6.6,
+        number: 7,
         start: 99,
         right: "% Users.",
     },
@@ -16,7 +16,7 @@ const Leetcode = {
 };
 const Codechef = {
     platform: "CODECHEF",
-    highlightNumber: 1636,
+    highlightNumber: 1641,
     highlightLabel: "Highest Rating",
     extra: {
         left: "Best rank",
@@ -29,11 +29,11 @@ const Codechef = {
 
 const Codeforces = {
     platform: "CODEFORCES",
-    highlightNumber: 1410,
+    highlightNumber: 1452,
     highlightLabel: "Highest Rating",
     extra: {
         left: "",
-        number: 267,
+        number: 402,
         start: 0,
         right: " Problems solved",
     },

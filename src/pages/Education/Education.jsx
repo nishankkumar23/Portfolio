@@ -7,8 +7,8 @@ const School = {
     branch: "Computer Science",
     duration: "March 2022",
     bullets: [
-        "Participated in many Sit-and-Drawing Competitions",
-        "Ranked #1 in my school, in both 10th and 12th CBSE Board Examinations",
+        "Participated in many Sit-and-Drawing Competitions.",
+        "Ranked #1 in my school, in both 10th and 12th CBSE Board Examinations.",
     ],
 };
 const College = {
