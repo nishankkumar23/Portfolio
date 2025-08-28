@@ -35,38 +35,72 @@ const Header = () => {
         window.open(link, newtab ? "_blank" : "_self");
     };
 
-    const [scrollProgress, setScrollProgress] = useState(0);
+    const [activeSection, setActiveSection] = useState(0);
 
     useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.body.scrollHeight - window.innerHeight;
-            const scrolled = (scrollTop / docHeight) * 100;
-            setScrollProgress(scrolled);
-        };
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Get the section number from the div id
+                        const sectionIndex = parseInt(entry.target.id.replace("#", ""));
+                        setActiveSection(sectionIndex);
+                        console.log("Section intersecting: ", sectionIndex);
+                    }
+                });
+            },
+            {
+                threshold: 0.1,
+                // rootMargin: "-50px 0px -50px 0px",
+            }
+        );
 
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
+        // Observe all divs with numeric ids
+        const divSections = [0, 1, 2, 3, 4, 5].map((index) => document.querySelector(`div[id="#${index}"]`));
+
+        divSections.forEach((div) => {
+            if (div) {
+                observer.observe(div);
+            }
+        });
+
+        return () => {
+            divSections.forEach((div) => {
+                if (div) {
+                    observer.unobserve(div);
+                }
+            });
+        };
     }, []);
 
-    const icons = [faHome, faPaperPlane, faSchool, faCode, faBriefcase, faPenRuler, faInfo];
+    const handleSelect = (index) => {
+        const section = document.querySelector(`div[id="#${index}"]`);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+    const icons = [faHome, faSchool, faCode, faPenRuler, faBriefcase, faInfo];
 
     return (
         <div className="component-header">
             <div className="page-progress">
-                <Loader />
                 {icons.map((icon, index) => (
                     <FontAwesomeIcon
                         key={index}
                         icon={icon}
-                        color={scrollProgress >= index*16 ? "#000" : "var(--brand)"}
+                        onClick={() => handleSelect(index)}
+                        color={activeSection === index ? "#000" : "var(--brand)"}
                         style={{
                             border: "1px solid var(--brand)",
-                            backgroundColor: scrollProgress >= index*16 ? "var(--brand)" : "#000",
+                            backgroundColor: activeSection === index ? "var(--brand)" : "#000",
                             borderRadius: "100px",
                             width: "16px",
                             height: "16px",
                             padding: "8px",
+                            cursor: "pointer",
+                            transition: "all 0.3s ease",
+                            boxShadow: activeSection === index ? "0 0 10px var(--brand)" : "none",
                         }}
                     />
                 ))}

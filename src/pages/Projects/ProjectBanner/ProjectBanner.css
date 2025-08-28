@@ -91,7 +91,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1000px) {
     .projectbanner {
         flex-direction: column-reverse !important;
         gap: 0.5rem;

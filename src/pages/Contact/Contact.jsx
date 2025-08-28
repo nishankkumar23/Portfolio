@@ -10,7 +10,7 @@ const Contact = () => {
         window.open(link, "_blank");
     };
     return (
-        <div className="contact-wrap hiderx">
+        <div id="#5" className="contact-wrap hiderx">
             <div className="head-wideline">
                 <div className="heading hiderx">Say hello!</div>
                 <div className="wideline right-to-left"></div>

@@ -52,7 +52,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
+[id^="#"] {
+  min-height: 100vh;
+  position: relative; /* Add this */
+}
 .head-wideline {
   display: flex;
   align-items: center;

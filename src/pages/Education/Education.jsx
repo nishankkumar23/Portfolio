@@ -27,7 +27,7 @@ const College = {
 
 const Education = () => {
     return (
-        <div className="edu-content">
+        <div id="#1" className="edu-content">
             <div className="head-wideline">
                 <div className="heading hiderx">Education</div>
                 <div className="wideline right-to-left"></div>

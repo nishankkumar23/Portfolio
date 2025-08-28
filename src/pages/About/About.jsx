@@ -5,7 +5,7 @@ import AboutStamp from "../../assets/about-stamp.svg"
 
 const About = () => {
     return (
-        <div className="about-content">
+        <div id="#0" className="about-content">
             <div className="head-wideline">
                 <div className="heading hiderx">About Me</div>
                 <div className="wideline right-to-left"></div>

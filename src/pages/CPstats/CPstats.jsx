@@ -42,7 +42,7 @@ const Codeforces = {
 
 const CPstats = () => {
     return (
-        <div className="content" style={{
+        <div id="#2" className="content" style={{
           padding: "3rem 0"
         }}>
             <div className="head-wideline">

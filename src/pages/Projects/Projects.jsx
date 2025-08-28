@@ -58,7 +58,7 @@ const ProjectData = [
 
 const Projects = () => {
     return (
-        <div className="content">
+        <div id="#4" className="content">
             <div className="head-wideline">
                 <div className="heading hiderx">Projects</div>
                 <div className="wideline right-to-left"></div>
