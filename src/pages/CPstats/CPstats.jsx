@@ -2,42 +2,17 @@ import { React, useEffect, useState, useRef } from "react";
 import CountUp from "react-countup";
 import "./CPstats.css";
 
-const Leetcode = {
-    platform: "LEETCODE",
-    highlightNumber: 1808,
-    highlightLabel: "Highest Rating",
-    extra: {
-        left: "Top",
-        number: 7,
-        start: 99,
-        right: "% Users.",
-    },
-    link: "https://leetcode.com/_Soumyajit_83/",
-};
-const Codechef = {
-    platform: "CODECHEF",
-    highlightNumber: 1641,
-    highlightLabel: "Highest Rating",
-    extra: {
-        left: "Best rank",
-        number: 142,
-        start: 3231,
-        right: " /3231",
-    },
-    link: "https://www.codechef.com/users/s0umyajit",
-};
-
 const Codeforces = {
     platform: "CODEFORCES",
-    highlightNumber: 1452,
-    highlightLabel: "Highest Rating",
+    highlightNumber: 870,
+    highlightLabel: "Current Rating",
     extra: {
         left: "",
-        number: 402,
+        number: 0,
         start: 0,
         right: " Problems solved",
     },
-    link: "https://codeforces.com/profile/CF_Soumyajit",
+    link: "https://codeforces.com/profile/nishankkumar23",
 };
 
 const CPstats = () => {
@@ -50,8 +25,6 @@ const CPstats = () => {
                 <div className="wideline right-to-left"></div>
             </div>
             <div className="cp-cards">
-                <CPcard data={Leetcode} />
-                <CPcard data={Codechef} />
                 <CPcard data={Codeforces} />
             </div>
         </div>

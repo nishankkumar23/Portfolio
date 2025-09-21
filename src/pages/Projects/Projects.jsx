@@ -6,53 +6,11 @@ import ProjectBanner from "./ProjectBanner/ProjectBanner";
 
 const ProjectData = [
     {
-        name: "CodeIIEST",
-        byline: "Website for CodeIIEST- the official coding club of IIEST Shibpur. Contains details about the club as well as present members, cp leaderboards, event details etc.",
-        github: "https://github.com/dsc-iiest/codeiiest-gdsc",
-        link: "https://www.codeiiest.in/",
-        tags: ["React JS", "MUI"],
-    },
-    {
-        name: "Revelation",
-        byline: "Figma design and prototype for Revelation- the annual techno-management fest of IIEST, Shibpur. Won 2nd place with this design in the design contest.",
-        github: "",
-        link: "https://www.figma.com/proto/97DK9Z4YNkSnpszQRKP7lq/Web_designs?page-id=1204%3A402&node-id=1243-515&viewport=4552%2C-6381%2C0.83&t=0Mh3qMcoaGEc8dxm-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1243%3A515&hide-ui=1",
-        tags: ["Figma", "UI/UX"],
-    },
-    {
-        name: "Vibesphere",
-        byline: "Predicts MBTI (Myers-Briggs Type Indicator) personality types from user-generated text using Natural Language Processing (NLP) and machine learning techniques. Recommends movies and books based on the predicted personality type.",
-        github: "https://github.com/Abhijit004/Personality-Predictor",
-        link: "https://vibesphere-mbti.vercel.app/",
-        tags: ["React JS", "Flask", "Python", "NLP", "Machine Learning"],
-    },
-    {
-        name: "Rebeca",
-        byline: "Website for REBECA- the annual cultural fest of IIEST, Shibpur. Contains event as well as artists information, along with a list of all current event coordinators. Also made a full stack admin panel for managing event details.",
-        github: "https://github.com/Soumyajit0803/rebeca-v2",
-        link: "https://rebeca.in/",
-        tags: ["React JS", "MUI", "Node JS", "Express", "Mongoose", "Ant design", "JWT"],
-    },
-    {
-        name: "Instruo",
-        byline: "Website for Instruo- annual techno-management fest of IIEST, Shibpur. Contains event details and member information.",
-        github: "https://github.com/Abhijit004/InstruoMain2k24",
-        link: "https://instruo2k25.vercel.app/",
-        tags: ["React JS", "MUI", "Ant design"],
-    },
-    {
         name: "CoinPROBE",
         byline: "React cryptocurrency tracking app, to track key stats about top 100 Cryptocoins. Used Coingecko API for data.",
-        github: "https://github.com/Soumyajit0803/CoinPROBE",
-        link: "https://coinprobe.vercel.app/",
+        github: "https://github.com/nishankkumar23/CoinPROBE",
+        link: "https://coin-probo-cryptocurrency-tracker.vercel.app/",
         tags: ["React JS", "Chart JS", "axios"],
-    },
-    {
-        name: "GCSJ",
-        byline: "Website for necessary information about Google Cloud Study Jams, DSC IIEST chapter. Maintained the leaderboard throughout Sept '23 - Oct '23.",
-        github: "https://github.com/dsc-iiest/gcsj-website",
-        link: "https://gcsj-iiests.vercel.app/",
-        tags: ["React JS", "MUI"],
     },
 ];
 

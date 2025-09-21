@@ -105,10 +105,6 @@ const Header = () => {
                     />
                 ))}
             </div>
-            {/* <div onClick={() => openWeb("https://soumyajit-dev.vercel.app/")} className="brand">
-                <img src={Brandicon} alt="Brandicon" />
-                <div className="brand-name">SOUMYAJIT.DEV</div>
-            </div> */}
             <div
                 className="resume"
                 onClick={() =>

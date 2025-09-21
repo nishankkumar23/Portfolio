@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Nishank Kumar <nishank232006@gmail.com>",
+  "description": "Portfolio website of Nishank Kumar",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

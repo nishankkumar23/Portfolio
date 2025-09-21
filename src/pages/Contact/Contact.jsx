@@ -32,7 +32,7 @@ const Contact = () => {
                         icon={faLinkedin}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("https://www.linkedin.com/in/soumyajit-karmakar-68362526b/")}
+                        onClick={() => openWeb("https://www.linkedin.com/in/nishankkumar23/")}
                     />
                 </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                         icon={faEnvelope}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("mailto:sona832004@gmail.com")}
+                        onClick={() => openWeb("mailto:nishank232006@gmail.com")}
                     />
                 </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                         icon={faGithub}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("https://github.com/Soumyajit0803")}
+                        onClick={() => openWeb("https://github.com/nishankkumar23")}
                     />
                 </div>
             </div>

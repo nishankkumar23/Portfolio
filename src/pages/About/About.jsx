@@ -14,15 +14,19 @@ const About = () => {
                 <div>
                     <p>Welcome to my corner of the Internet!</p>
                     <br />
-                    I'm Soumyajit Karmakar, a passionate college student with a zest for creativity and problem-solving.
+                    I'm Nishank Kumar, a passionate Computer Science student at Indian Institute of Information Technology, Agartala (2023-2027).
                     My journey through academia has been an exhilarating exploration of various fields, but my heart
                     lies at the intersection of web development, design and competitive programming.
                     <br />
                     <br />
                     With a strong foundation in the MERN stack, I thrive on building dynamic web apps that blend
                     functionality with aesthetics. For design I consider Figma as my digital canvas, crafting many
-                    elegant website UIs. Apart from development, I love to take part in CP contests on various online
-                    platforms.
+                    elegant website UIs. Apart from development, I love to take part in CP contests on Codeforces.
+                    <br />
+                    <br />
+                    I'm an active member of the Coding Club, participate in college technical fests & hackathons, 
+                    and I'm also a state-level Taekwondo Gold Medalist. I completed my schooling from Ketan Convent School, 
+                    Aligarh with 94% in X and 78% in XII.
                     <br />
                     <br />
                     Scroll down to learn more about me!

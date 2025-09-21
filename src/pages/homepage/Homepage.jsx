@@ -12,7 +12,7 @@ const Homepage = () => {
         });
     };
     const openWeb = () => {
-        window.open("https://github.com/Soumyajit0803", "_blank");
+        window.open("https://github.com/nishankkumar23", "_blank");
     };
     return (
         <div className="page-wrap">
@@ -29,7 +29,7 @@ const Homepage = () => {
                     <div className="salutation">Hi, I'm</div>
                     <div className="wideline right-to-left"></div>
                 </div>
-                <div className="name">Soumyajit</div>
+                <div className="name">Nishank</div>
                 <div className="hobby">
                     I am a
                     <Dynamic />
@@ -71,7 +71,7 @@ const Homepage = () => {
 const Dynamic = () => {
     const [holder, setHolder] = useState(0);
     const [index, setIndex] = useState(0);
-    let values = ["UI/UX Designer", "Web developer", "CP enthusiast", "Skillful artist"];
+    let values = ["Web Developer", "CP Enthusiast", "Taekwondo Gold Medalist", "CS Student"];
     const [typedText, setTypedText] = useState("");
 
     useEffect(() => {
