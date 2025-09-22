@@ -5,10 +5,10 @@ const ButtonGroup = ({ github, demo, flip }) => {
     const pattern = !flip ? "right-to-left" : "left-to-right";
     return (
         <div className={`project-btn ${pattern}`}>
-            <div className="github-btn" onClick={() => github?window.open(github, "_blank"):null}>
+            <div className="github-btn" onClick={() => (github ? window.open(github, "_blank") : null)}>
                 github
             </div>
-            <div className="demo-btn" onClick={() => live?window.open(demo, "_blank"):null}>
+            <div className="demo-btn" onClick={() => (demo ? window.open(demo, "_blank") : null)}>
                 live
             </div>
         </div>
