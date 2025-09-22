@@ -56,7 +56,7 @@ const Contact = () => {
                     />
                 </div>
             </div>
-            <p className="signature">Made with {<FontAwesomeIcon icon={faHeart} color="#ffad33" />} by <i>me</i>.</p>
+            <p className="signature">Made with {<FontAwesomeIcon icon={faHeart} color="#ffad33" />} by <i>Nishank Kumar</i>.</p>
         </div>
     );
 };
