@@ -8,7 +8,7 @@ const ProjectData = [
     {
         name: "CoinPROBE",
         byline: "React cryptocurrency tracking app, to track key stats about top 100 Cryptocoins. Used Coingecko API for data.",
-        github: "https://github.com/nishankkumar23/CoinPROBE",
+        github: "https://github.com/nishankkumar23/CoinProbo_Cryptocurrency_tracker",
         link: "https://coin-probo-cryptocurrency-tracker.vercel.app/",
         tags: ["React JS", "Chart JS", "axios"],
     },
