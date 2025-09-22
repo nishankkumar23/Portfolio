@@ -17,63 +17,24 @@ const Experience = () => {
                 <div className="wideline right-to-left"></div>
             </div>
             <div className="exp-data">
-                {/* <Expcard data={CodeIIEST} />
-                <Expcard data={GDSC} /> */}
                 <Educard
                     data={{
-                        degree: "CodeIIEST x GDG IIEST",
-                        projects: [
-                            {
-                                project: "Webgame Challenge",
-                                duration: "Nov 2024",
-                            },
-                            {
-                                project: "Winter of opensource",
-                                duration: "Dec 2024",
-                            },
-                            {
-                                project: "CodeIIEST website",
-                                duration: "Feb 2024",
-                            },
-                        ],
+                        degree: "Runner-up, SIH IIITA Hackathon 2024",
+                        branch: "Collaborated with a team to design and implement innovative solutions",
+                        duration: "2024",
                         bullets: [
-                            "Core member of CodeIIEST and development lead of GDG IIEST.",
-                            "Organiser and Judging panel for Webgame Challenge and Winter of Opensource.",
-                            "Collaborated and supervised the design and development of the official website of CodeIIEST- the coding club of IIEST Shibpur.",
+                            "Developed field validation API in Java Spring with Swagger UI & Bruno testing, enabling real-time validation.",
+                            "Created SQL tables in Aurora-MySQL & H2, added CRUD APIs, and built editable frontend grid synced to APIs.",
                         ],
                     }}
                 />
                 <Educard
                     data={{
-                        degree: "Rebeca",
-                        projects: [
-                            {
-                                project: "Main site (Design + dev)",
-                                duration: "Mar 2024",
-                            },
-                            {
-                                project: "Admin panel (Dev)",
-                                duration: "Feb 2025",
-                            },
-                        ],
+                        degree: "Viyogi Enterprises – Remote Sensing Division",
+                        branch: "Software Engineer Intern · Udyog Vihar, Gurgaon",
+                        duration: "Jun 2025 – Jul 2025",
                         bullets: [
-                            "Designed and developed the website of Rebeca- the annual cultural fest of IIEST Shibpur.",
-                            "Contributed to both frontend and backend code, along with developing an admin panel for organisers to handle data regarding their events."
-                        ],
-                    }}
-                />
-                <Educard
-                    data={{
-                        degree: "Instruo",
-                        projects: [
-                            {
-                                project: "Main site (Design + dev)",
-                                duration: "Dec 2024",
-                            },
-                        ],
-                        bullets: [
-                            "Organiser and Judging panel for Hacknovare- an inter-college hackathon.",
-                            "Speaheaded the design and development of Instruo's official website.",
+                            "Worked as Software Engineer Intern in the Remote Sensing Division.",
                         ],
                     }}
                 />
