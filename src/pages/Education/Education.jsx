@@ -7,7 +7,8 @@ const School = {
     branch: "Science",
     duration: "Mar 2021 - Mar 2023",
     bullets: [
-        "Grade: X: 94% | XII: 78%",
+        "Participated in many Sit-and-Drawing Competitions.",
+        "Ranked #1 in my school, in both 10th  CBSE Board Examinations.",
     ],
 };
 const College = {
@@ -16,9 +17,10 @@ const College = {
     branch: "Computer Science",
     duration: "2023 - 2027",
     bullets: [
-        "Member, Coding Club (Competitive Programming & Hackathons)",
-        "Participant, College Technical Fest & Hackathons",
-        "Member, Sports Committee – State-level Taekwondo Gold Medalist",
+        "Participated in many drawing, coding and design contests.",
+        "Actively led the building of various college websites related to clubs, department and events.",
+        "Collaborated in building website for CP-DSA bootcamp held by our college.",
+        "Mentoring batchmates in the web development bootcamp held by our college.",
     ],
 };
 
