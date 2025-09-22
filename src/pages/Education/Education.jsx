@@ -2,26 +2,23 @@ import { React, useRef, useEffect } from "react";
 import "./Education.css";
 
 const School = {
-    degree: "Higher Secondary",
-    institution: "Kendriya Vidyalaya Barrackpore (ARMY)",
-    branch: "Computer Science",
-    duration: "March 2022",
+    degree: "High School / Secondary Certificate Program",
+    institution: "Ketan Convent School, Aligarh",
+    branch: "Science",
+    duration: "Mar 2021 - Mar 2023",
     bullets: [
-        "Participated in many Sit-and-Drawing Competitions.",
-        "Ranked #1 in my school, in both 10th and 12th CBSE Board Examinations.",
+        "Grade: X: 94% | XII: 78%",
     ],
 };
 const College = {
-    degree: "Bachelor of Technology",
-    institution: "IIEST, Shibpur",
-    branch: "Information Technology",
-    duration: "2022-26",
+    degree: "Bachelor's degree",
+    institution: "Indian Institute of Information Technology, Agartala",
+    branch: "Computer Science",
+    duration: "2023 - 2027",
     bullets: [
-        "Participated in many drawing, coding and design contests.",
-        "Actively led the building of various college websites related to clubs, department and events.",
-        "Collaborated in building website for CP-DSA bootcamp held by our college.",
-        "Mentoring batchmates in the web development bootcamp held by our college.",
-        "Actively collaborating in design and development of the website for CodeIIEST",
+        "Member, Coding Club (Competitive Programming & Hackathons)",
+        "Participant, College Technical Fest & Hackathons",
+        "Member, Sports Committee – State-level Taekwondo Gold Medalist",
     ],
 };
 
