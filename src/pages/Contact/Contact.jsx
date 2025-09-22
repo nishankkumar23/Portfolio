@@ -32,7 +32,7 @@ const Contact = () => {
                         icon={faLinkedin}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("https://www.linkedin.com/in/nishankkumar23/")}
+                        onClick={() => openWeb("https://www.linkedin.com/in/nishank-kumar-a234002a4/")}
                     />
                 </div>
 
